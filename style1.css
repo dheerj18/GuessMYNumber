@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+body {
+  color: green;
+  background-color: greenyellow;
+  /* background: linear-gradient(45deg, #0a7b20, #85ffbd, #13e71b); */
+  font-family: 'Fredoka One', cursive;
+}
+/* layout */
+header {
+  position: relative;
+  height: 50vh;
+  /* background-color: blueviolet; */
+  border-bottom: 50px solid green;
+}
+main {
+  height: 50vh;
+  display: flex;
+  /* background-color: blueviolet; */
+}
+.left {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+.right {
+  text-align: center;
+  width: 50%;
+}
+/* designing */
+h1 {
+  letter-spacing: 15px;
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 8rem;
+}
+.number {
+  color: seashell;
+  border: 20px solid green;
+  position: relative;
+  top: 10%;
+  left: 44%;
+  text-align: center;
+  font-size: 120px;
+  width: 150px;
+  height: 150px;
+  background-color: seagreen;
+}
+.btn {
+  font-size: 30px;
+  color: blanchedalmond;
+  background-color: green;
+  width: 100px;
+  height: 50px;
+}
+.btn:hover {
+  background-color: cornflowerblue;
+}
+.again {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+}
+.para {
+  font-size: 2rem;
+  position: absolute;
+  top: 35px;
+  right: 35px;
+}
+.check {
+  position: absolute;
+  bottom: 5%;
+  left: 17%;
+}
+.guess {
+  font-family: inherit;
+  background: none;
+  border: 8px solid white;
+  text-align: center;
+  font-size: 4rem;
+  position: absolute;
+  left: 13%;
+  margin-top: 45px;
+  width: 200px;
+  height: 100px;
+}
+.message {
+  padding-top: 50px;
+  margin-bottom: 30px;
+  font-size: 38px;
+  text-align: center;
+}
+.label-highscore,
+.label-score {
+  margin-bottom: 10px;
+  font-size: 38px;
+  text-align: center;
+}
